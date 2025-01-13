@@ -1181,7 +1181,10 @@ select:not([multiple]) {
   font-weight: 400;
   line-height: 28.4px;
 }
-
+.footer__item:hover a::before {
+  width: 100%;
+  left: 0;
+}
 .social-footer a  {
   color: var(--black-color);
   transition: 0.3s ;
