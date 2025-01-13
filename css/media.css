@@ -511,6 +511,10 @@
 .footer__descr {
   text-align: center;
 }
+  .footer__item:hover a::before {
+  width: 0;
+  left: 0;
+}
 }
 
 @media ( max-width: 360px){
